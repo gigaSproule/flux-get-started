@@ -14,9 +14,6 @@ spec:
     name: mongodb
     version: 7.6.3
   values:
-    image:
-      repository: bitnami/mongodb
-      tag: 4.0.14
     usePassword: false
     persistence:
       enabled: false
